@@ -68,6 +68,7 @@ export const Signup = () => {
           <input type="email" placeholder="Email"  onChange={(e)=>{setemail(e.target.value)}}/>
           <input type="password" placeholder="Password"  onChange={(e)=>{setpassword(e.target.value)}}/>
           <Link to={"/login"} className='links'>Already Have An Account Login Now</Link>
+           <Link to={"/home"} className='links'>Let's Have A Demo</Link>
           <button  onClick={signup} type='submit'>Sign In</button>
         </form>
       </div>

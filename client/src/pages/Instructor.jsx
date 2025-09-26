@@ -16,7 +16,7 @@ export const Instructor = () => {
               <img src='https://bdevs.net/wp/educal/wp-content/uploads/2021/09/what-1.jpg' alt='' className='rounded-t-lg object-cover w-full h-72' />
               <div className='categ flex flex-col gap-4 absolute top-5 z-30 m-3 p-8 items-center justify-center text-center'>
                 <h2 className='text-3xl text-white font-semibold'>Learn And Grow Together With Us</h2>
-                <button className='text-[15px] py-2 px-4 border border-gray-200 rounded-md text-white'>Start a chat today</button>
+                <button className='text-[15px] py-2 px-4 border border-gray-200 rounded-md text-white' href="https://bot-models-coral.vercel.app/">Start a chat today</button>
               </div>
             </div>
             <div className='images rounded-lg relative overflow-hidden h-72 w-ful before:bg-backbg before:h-72 before:w-full before:absolute before:top-0 before:left-0 before:content before:z-10'>

@@ -47,7 +47,7 @@ export const Courses = () => {
                 </div>
                 <div to='/' className='flex items-center justify-between border-t border-gray-200 p-3'>
                   <span className='text-sm text-primary'>Free</span>
-                  <NavLink className='text-[14px] ml-2 flex items-center' to={'http://localhost:5173'}>
+                  <NavLink className='text-[14px] ml-2 flex items-center' to={'https://bot-models-coral.vercel.app/'}>
                     Know Details <HiOutlineArrowNarrowRight />
                   </NavLink>
                 </div>
